@@ -11,7 +11,7 @@ module rca
 
     // Internals
     logic [2:0] carry;
-
+    //RCA
     genvar i;
     generate;
         for(i=0; i< 3; i=i+1) begin: gen_rca 
